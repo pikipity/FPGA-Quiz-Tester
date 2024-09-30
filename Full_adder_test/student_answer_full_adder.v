@@ -3,7 +3,7 @@ module student_answer_full_adder(
 	output	out,cout
 );
 
-assign out = a^b;
-assign cout = a&b|b&cin|a&cin;
+assign out = a ^ b ^ cin;    
+    assign cout = (a & b) | (cin & (a ^ b));  
 
 endmodule
