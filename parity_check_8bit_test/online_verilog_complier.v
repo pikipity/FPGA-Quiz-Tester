@@ -1,7 +1,4 @@
-/* 
- * Do not change Module name 
-*/
-module main;
+module jdoodle;
 reg [7:0] din;
 wire dout_odd_true;
 wire dout_odd_test;
