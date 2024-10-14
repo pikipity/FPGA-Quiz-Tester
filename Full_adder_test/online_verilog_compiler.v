@@ -1,7 +1,4 @@
-/* 
- * Do not change Module name 
-*/
-module main;
+module jdoodle;
   reg a, b, cin;
 
 wire out_true, cout_true;
