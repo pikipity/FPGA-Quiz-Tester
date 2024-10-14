@@ -1,7 +1,4 @@
-/* 
- * Do not change Module name 
-*/
-module main;
+module jdoodle;
 reg [1:0]	a;
 wire	[3:0]	b_true;
 wire	[3:0]	b_test;
